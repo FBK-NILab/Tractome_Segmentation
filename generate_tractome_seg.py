@@ -232,7 +232,6 @@ if __name__ == '__main__':
     T_path = os.path.abspath(args.T)
     b_path = os.path.abspath(args.b)
     o_path = os.path.abspath(args.o)
-    import ipdb; ipdb.set_trace()
     if args.k:
         generate_seg(struct_path, T_path, b_path, o_path, k=int(args.k))
     elif args.r:
