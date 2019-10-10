@@ -9,8 +9,6 @@ import glob
 from time import time
 import pickle
 
-import ipdb
-
 from functools import partial
 from dissimilarity import compute_dissimilarity
 from dipy.tracking.distances import bundles_distances_mam
